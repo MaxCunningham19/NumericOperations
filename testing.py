@@ -1,13 +1,13 @@
-import numericOperation
+import numericOperation as nm
 
 def test_multi():
-  assert muliply_op(10,11) == 110
+  assert nm.multiply_op(10,11) == 110
   
 def test_sub():
-  assert sub_op(11,10) == 1
+  assert nm.sub_op(11,10) == 1
   
 def test_add():
-  assert add_op(11,10) == 21
+  assert nm.add_op(11,10) == 21
 
 def test_pow():
-  assert pow_op(2,2) == 4
+  assert nm.pow_op(2,2) == 4
